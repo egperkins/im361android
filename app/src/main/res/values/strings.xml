@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Connected Home</string>
     <string name="button">Button</string>
+
+    <plurals name="has_been_clicked">
+        <item quantity="one">I\'ve been clicked %d time!</item>
+        <item quantity="other">I\'ve been clicked %d times!</item>
+    </plurals>
 </resources>
