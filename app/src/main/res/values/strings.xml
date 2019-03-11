@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Connected Home</string>
+    <string name="button">Button</string>
 </resources>
