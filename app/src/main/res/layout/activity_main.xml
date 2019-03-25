@@ -17,62 +17,105 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:elevation="0dp"/>
     <TextView
-            android:text="Connected Home"
+            android:text="@string/connected_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="74dp" android:id="@+id/textView"
+            android:id="@+id/textView"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             app:layout_constraintTop_toTopOf="@+id/toolbar" app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-            app:layout_constraintVertical_bias="1.0" android:textColor="@android:color/white"/>
+            app:layout_constraintVertical_bias="1.0" android:textColor="@android:color/white"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="@+id/toolbar"
+            android:textAlignment="center"/>
     <ProgressBar
             style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
             android:layout_width="206dp"
             android:layout_height="44dp"
-            tools:layout_editor_absoluteY="220dp" tools:layout_editor_absoluteX="102dp" android:id="@+id/progressBar"
-            android:max="10" android:progress="3" android:progressTint="@android:color/holo_blue_bright"/>
-    <ProgressBar
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="206dp"
-            android:layout_height="44dp"
-            tools:layout_editor_absoluteY="323dp" tools:layout_editor_absoluteX="102dp" android:id="@+id/progressBar2"
-            android:visibility="visible" android:max="10" android:progress="5"
-            android:progressTint="@android:color/holo_blue_bright"/>
-    <ProgressBar
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="206dp"
-            android:layout_height="44dp"
-            tools:layout_editor_absoluteY="421dp" tools:layout_editor_absoluteX="102dp" android:id="@+id/progressBar3"
-            android:progressTint="@android:color/holo_blue_bright" android:max="10" android:progress="7"/>
-    <TextView
-            android:text="Family's Task Progression"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="83dp"
-            tools:layout_editor_absoluteX="122dp" android:id="@+id/textView2"/>
-    <TextView
-            android:text="Emma - 3 of 10 Tasks"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="200dp"
-            tools:layout_editor_absoluteX="102dp" android:id="@+id/textView3"/>
-    <TextView
-            android:text="John - 5 of 10 Tasks"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="304dp"
-            tools:layout_editor_absoluteX="102dp" android:id="@+id/textView5"/>
-    <TextView
-            android:text="Sammie - 7 of 10 Tasks"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="402dp"
-            tools:layout_editor_absoluteX="102dp" android:id="@+id/textView4"/>
-    <Button
-            android:text="New Task"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="556dp"
-            tools:layout_editor_absoluteX="74dp" android:id="@+id/button" android:elevation="0dp"
+            android:id="@+id/progressBar"
+            android:max="10" android:progress="3" android:progressTint="@color/colorAccent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView3"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
     />
-    <Button
-            android:text="View Tasks"
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="206dp"
+            android:layout_height="44dp"
+            android:id="@+id/progressBar2"
+            android:visibility="visible" android:max="10" android:progress="5"
+            android:progressTint="@color/colorAccent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView4" app:layout_constraintHorizontal_bias="0.042"
+    />
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="194dp"
+            android:layout_height="44dp"
+            android:id="@+id/progressBar3"
+            android:progressTint="@color/colorAccent" android:max="10" android:progress="7"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintVertical_bias="0.019"/>
+    <TextView
+            android:text="@string/family_s_task_progression"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="556dp"
-            tools:layout_editor_absoluteX="218dp" android:id="@+id/button2"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/Textview_2" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintVertical_bias="0.017"/>
+    <TextView
+            android:text="@string/emma_3_of_10_tasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.031" app:layout_constraintVertical_bias="0.093"/>
+    <TextView
+            android:text="@string/sammie_7_of_10_tasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.032" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.316"/>
+    <Button
+            android:text="@string/new_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" android:elevation="0dp"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="84dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.573" android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+    <Button
+            android:text="@string/view_tasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@+id/button" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.324" app:layout_constraintVertical_bias="0.573"
+            android:backgroundTint="@color/colorPrimaryDark" android:textColor="@color/colorPrimary"/>
+    <TextView
+            android:text="@string/john_5_of_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/progressBar2" app:layout_constraintVertical_bias="1.0"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"/>
 
 </android.support.constraint.ConstraintLayout>

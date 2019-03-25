@@ -2,6 +2,16 @@
     <string name="app_name">Connected Home</string>
     <string name="button">Button</string>
 
+    <string name="child_name>">Name</string>
+    <string name="emma_3_of_10_tasks">Emma - 3 of 10 Tasks</string>
+    <string name="connected_home">Connected Home</string>
+    <string name="sammie_7_of_10_tasks">Sammie - 7 of 10 Tasks</string>
+    <string name="new_task">New Task</string>
+    <string name="view_tasks">View Tasks</string>
+    <string name="family_s_task_progression">Family\'s Task Progression</string>
+    <string name="john_5_of_10_tasks">John - 5 of 10 Tasks</string>
+    <string name="john_5_of_10">John - 5 of 10</string>
+
     <plurals name="has_been_clicked">
         <item quantity="one">I\'ve been clicked %d time!</item>
         <item quantity="other">I\'ve been clicked %d times!</item>
