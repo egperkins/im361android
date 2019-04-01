@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     }
 
-    var counter = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,11 +36,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     }
 
-//    override fun onMapReady(map: GoogleMap?){
-//        val morton = LatLng(40.6091693, -89.5392298)
-//        map?.addMarker(MarkerOptions().position(morton).title("Pumpkin Capital"))
-//        val moveCamera = map?.moveCamera(CameraUpdateFactory.new.LatLng(morton))
-//    }
+
 
 
 

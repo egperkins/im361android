@@ -17,11 +17,21 @@
     <string name="add_a_reward">Add a Reward</string>
     <string name="enter_a_description">Enter a description</string>
     <string name="add_task">ADD TASK</string>
-    <string name="task_description">Task Description</string>
     <string name="name">Name</string>
     <string name="reward_type">Reward Type</string>
     <string name="button">Button</string>
     <string name="submit_task">SUBMIT TASK</string>
+    <string name="task_description">Task Description</string>
+
+
+
+
+    <string-array name="child_array">
+        <item>Emma</item>
+        <item>John</item>
+        <item>Sammie</item>
+    </string-array>
+
 
 
     <plurals name="has_been_clicked">
