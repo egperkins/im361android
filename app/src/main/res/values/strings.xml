@@ -1,16 +1,28 @@
 <resources>
     <string name="app_name">Connected Home</string>
-    <string name="button">Button</string>
 
-    <string name="child_name">Name</string>
-    <string name="emma_3_of_10_tasks">Emma - 3 of 10 Tasks</string>
+
+
     <string name="connected_home">Connected Home</string>
-    <string name="sammie_7_of_10_tasks">Sammie - 7 of 10 Tasks</string>
-    <string name="new_task">New Task</string>
-    <string name="view_tasks">View Tasks</string>
+    <string name="task_view">TASK VIEW</string>
+    <string name="sammie">Sammie</string>
+    <string name="view_tasks">VIEW TASKS</string>
+    <string name="john">John</string>
+    <string name="emma">Emma</string>
     <string name="family_s_task_progression">Family\'s Task Progression</string>
-    <string name="john_5_of_10_tasks">John - 5 of 10 Tasks</string>
-    <string name="john_5_of_10">John - 5 of 10</string>
+    <string name="who_gets_the_task">Who gets the task?</string>
+    <string name="child_name">Child Name</string>
+    <string name="describe_the_task">Describe the Task</string>
+
+    <string name="add_a_reward">Add a Reward</string>
+    <string name="enter_a_description">Enter a description</string>
+    <string name="add_task">ADD TASK</string>
+    <string name="task_description">Task Description</string>
+    <string name="name">Name</string>
+    <string name="reward_type">Reward Type</string>
+    <string name="button">Button</string>
+    <string name="submit_task">SUBMIT TASK</string>
+
 
     <plurals name="has_been_clicked">
         <item quantity="one">I\'ve been clicked %d time!</item>
