@@ -22,8 +22,13 @@
     <string name="button">Button</string>
     <string name="submit_task">SUBMIT TASK</string>
     <string name="task_description">Task Description</string>
-
-
+    <string name="enter_description">Enter Description</string>
+    <string name="submit">Submit</string>
+    <string name="task_created">Task Created!</string>
+    <string name="Continue">Continue</string>
+    <string name="click_to_continue">Click to Continue</string>
+    <string name="complete">Complete</string>
+    <string name="task_has_been_created">Task has been created!</string>
 
 
     <string-array name="child_array">
