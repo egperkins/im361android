@@ -8,7 +8,6 @@
     <string name="sammie">Sammie</string>
     <string name="view_tasks">VIEW TASKS</string>
     <string name="john">John</string>
-    <string name="emma">Emma</string>
     <string name="family_s_task_progression">Family\'s Task Progression</string>
     <string name="who_gets_the_task">Who gets the task?</string>
     <string name="child_name">Child Name</string>
@@ -29,14 +28,17 @@
     <string name="click_to_continue">Click to Continue</string>
     <string name="complete">Complete</string>
     <string name="task_has_been_created">Task has been created!</string>
-
-
-    <string-array name="child_array">
-        <item>Emma</item>
-        <item>John</item>
-        <item>Sammie</item>
-    </string-array>
-
+    <string name="tap_to_continue">Tap to Continue</string>
+    <string name="emma">Emma</string>
+    <string name="_4_of_5_tasks_completed">4 of 5 Tasks Completed</string>
+    <string name="favorite_reward_2">Favorite Reward: $2</string>
+    <string name="favorite_category_housework">Favorite Category: Housework</string>
+    <string name="current_tasks">Current Tasks</string>
+    <string name="complete_homework">Complete Homework</string>
+    <string name="take_out_the_trash">Take out the Trash</string>
+    <string name="walk_the_dog">Walk the dog</string>
+    <string name="clean_bedroom">Clean Bedroom</string>
+    <string name="make_the_bed">Make the Bed</string>
 
 
     <plurals name="has_been_clicked">
